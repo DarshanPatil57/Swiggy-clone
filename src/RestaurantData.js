@@ -9,6 +9,7 @@ import LunchBoxMealsandThalis from './assets/images/919cb3be0e7406f86f6741ebe7c3
 import McDonalds from './assets/images/535fc9f9c135f7982317bbb6a64a1ffc.jpeg'
 import KajalsCake from './assets/images/2a41aa363a8ae1e98a4cce95c2d0c589.jpeg'
 
+
 const restaurant =
 [
     {
@@ -110,7 +111,27 @@ const restaurant =
         "maxTime": 40,
         "name": "Cake",
         "place": "Chopsani Housing Board"
-    }
+    } ,
+    {
+        "image": "75d0b3ebeb56fe2484c944e94cac7a8d.jpeg",
+        "offer": "₹50 OFF ABOVE ₹199",
+        "title": JantaSweetHome,
+        "rating": 4.5,
+        "minTime": 35,
+        "maxTime": 40,
+        "name": "Sweets,South Indian",
+        "place": "Shastri Nagar"
+    },
+    {
+        "image": "cef5bf4cc31dc3c46a1e1b027c5627e4.jpeg",
+        "offer": "₹85 OFF ABOVE ₹149",
+        "title": ParihaarBhojnalay,
+        "rating": 4.3,
+        "minTime": 35,
+        "maxTime": 40,
+        "name": "North India, Thalis",
+        "place": "Sardarpura"
+    },
 ]
 
 export default restaurant

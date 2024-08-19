@@ -1,5 +1,6 @@
 import Category from "./components/Category"
 import Header from "./components/Header"
+import OnlineDelivery from "./components/OnlineDelivery"
 import TopRestaurent from "./components/TopRestaurent"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <Header/>
     <Category/>
     <TopRestaurent/>
+    <OnlineDelivery/>
     </>
   )
 }
